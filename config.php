@@ -7,5 +7,5 @@ define ('VIEWS', 'Views/');
 define ('DFT','Default/');
 define ('RQ', 'Resource/');
 //Url raiz de la aplicación
-define ('URL', 'http://localhost/sistema/');
+define ('URL', 'http://localhost/facturacion/');
 ?>
