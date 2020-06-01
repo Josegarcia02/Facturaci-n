@@ -5,7 +5,10 @@ class Index_model extends Conexion{
        parent::__construct();
     }
     function userLogin($email, $password) {
-        return $password;
+        $where = "Email = :Email";
+        $param = array('Email'=> $email);
+        $response = $this->db->select1("*",'usuarios',$where,$param);
+        return $response;
     }
 }
 
