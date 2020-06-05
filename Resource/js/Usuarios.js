@@ -1,4 +1,5 @@
-class Usuarios{
+class Usuarios {
+
     constructor() {
         
     }
@@ -27,6 +28,7 @@ class Usuarios{
                             {email, password},
                             (response)=>{
                                 console.log(response);
+                                
                             }
                         );
                 } else{
@@ -42,5 +44,5 @@ class Usuarios{
             }
         }
     }
- }
+  }
 }

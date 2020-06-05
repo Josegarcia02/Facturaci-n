@@ -1,7 +1,7 @@
 //Iniciamos la clase Usurios
 var usuarios = new Usuarios();
 //Creamos el objeto loginUser
-var loginUser = ()=>{
+var loginUser = () =>{
     //Creamos la variable email
     var email = document.getElementById("email").value;
     //Creamos la variable password
